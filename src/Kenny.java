@@ -1,4 +1,4 @@
-public class Kenny {
+public class Kenny implements Action{
     public static void main(String[] args) {
         System.out.println("Hello kenny++");
     }
