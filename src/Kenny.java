@@ -18,7 +18,10 @@ public class Kenny implements Action {
 
     @Override
     public void speak() {
+        Kenny kenny = new Kenny();
+        kenny.setAutherName("kenny");
         System.out.println("kenny speak");
+        System.out.println(kenny.autherName);
     }
 
     @Override
