@@ -1,6 +1,20 @@
-public class Kenny implements Action{
+public class Kenny implements Action {
+
+    private String autherName;
+
+
+    public String getAutherName() {
+        return autherName;
+    }
+
+    public void setAutherName(String autherName) {
+        this.autherName = autherName;
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello kenny++");
+        System.out.println("Hello kenny");
+        System.out.println("modify bug success");
+
     }
 
     @Override
