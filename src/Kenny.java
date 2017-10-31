@@ -12,16 +12,14 @@ public class Kenny implements Action {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello kenny++");
-    }
+        System.out.println("Hello kenny");
+        System.out.println("modify bug success");
 
+    }
 
     @Override
     public void speak() {
-        Kenny kenny = new Kenny();
-        kenny.setAutherName("kenny");
         System.out.println("kenny speak");
-        System.out.println(kenny.autherName);
     }
 
     @Override
@@ -34,5 +32,6 @@ public class Kenny implements Action {
     public void test() {
 
         System.out.println("kenny test");
+        System.out.println("Hello master");
     }
 }
