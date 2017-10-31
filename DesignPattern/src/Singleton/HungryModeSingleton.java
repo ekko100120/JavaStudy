@@ -1,3 +1,4 @@
+package Singleton;
 
 public class HungryModeSingleton {
     private static HungryModeSingleton hungryModeSingleton = new HungryModeSingleton();

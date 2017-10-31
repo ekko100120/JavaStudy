@@ -5,7 +5,7 @@
 .gitignore
 # Log file
 *.log
-
+out/
 # BlueJ files
 *.ctxt
 
